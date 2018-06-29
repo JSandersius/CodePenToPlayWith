@@ -1,0 +1,8 @@
+
+
+this runs the app just like yarn start
+
+# Run helloworld on Linux/macOS
+DEBUG=helloworld:* npm start
+
+ this server runs on port 3000 
