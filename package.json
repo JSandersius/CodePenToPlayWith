@@ -1,0 +1,22 @@
+{
+  "name": "codepentoplaywith",
+  "version": "1.0.0",
+  "description": "A cool codepen I found that I want to learn from and integrate into React , we'll see if that can go",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSandersius/CodePenToPlayWith.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSandersius/CodePenToPlayWith/issues"
+  },
+  "homepage": "https://github.com/JSandersius/CodePenToPlayWith#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
