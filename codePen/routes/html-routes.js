@@ -31,5 +31,17 @@ require("./routes/html-routes.js")(app);
 //parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
+//paser appliacation/json
+app.use(bodyParser.json());
 
+var exphbs = require("express-handlebars");
 
+app.engine("handlebars", exphbs({ defaultLayout: "test" }));
+
+app.set("view engine", "handlebars");
+
+app.get("/", function (req, res) {
+    res.sendFile(path.join(__dirname, "./index.html"));
+});
+
+app.use(express.static('images'));
