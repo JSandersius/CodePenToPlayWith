@@ -65,11 +65,11 @@ button {
 }
 
 #j {
-  color: #dd4240;
+  color: #2e9242;
 }
 
 #u {
-  color: #ab47bc;
+  color: #d05353;
 }
 
 #l {
@@ -92,14 +92,6 @@ button {
   color: #4caf50;
 }
 
-#a {
-  color: #ffc107;
-}
-
-#n {
-  color: #ff80ab;
-}
-
 #d {
   color: #ff8f00;  
 }
@@ -112,21 +104,6 @@ button {
   color: #ff8f00;  
 }
 
-#s {
-  color: #ff8f00;  
-}
-
-#i {
-  color: #ff8f00;  
-}
-
-#u {
-  color: #1a1714;  
-}
-
-#s {
-  color: #ff8f00;  
-}
 
 @keyframes mymove {
     0% {
