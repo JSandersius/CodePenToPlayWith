@@ -104,7 +104,7 @@ button {
   color: #72d7da;
 }
 
-
+/*this is the code relevent to keyframes and CSS animations//*/
 @keyframes mymove {
     0% {
       top: 0px;  

@@ -1,3 +1,4 @@
+/*this is the code relevent to keyframes and CSS animations//*/
 Array.from(document.getElementsByClassName('letter')).forEach(letter => {
     letter.addEventListener("mouseover", (e) => {
         letter.classList.add("hovered")
