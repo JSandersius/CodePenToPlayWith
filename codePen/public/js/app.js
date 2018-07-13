@@ -14,6 +14,7 @@ const numShapes = 3
 const maxSize = 200
 
 let colors = []
+//this runs as soon as the file is loaded, it initializes the HTML canvas
 function setup() {
     colors = [
         color(255, 143, 0, 80),
@@ -36,7 +37,8 @@ function randomChoice(choices) {
     let index = randomNumber(choices.length)
     return choices[index]
 }
-
+//this function runs when the user clicks anywhere on the canvas
+//it runs a couple random number generators to get the size, color and shape
 function mouseClicked() {
     let sideLength = randomNumber(maxSize)
     fill(randomChoice(colors))
