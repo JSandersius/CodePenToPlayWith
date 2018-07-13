@@ -8,7 +8,8 @@ Array.from(document.getElementsByClassName('letter')).forEach(letter => {
 })
 
 
-//___________RANDOM SHAPES
+//___________RANDOM SHAPES 
+// This is the P5 JS code--> from here to 
 const numShapes = 3
 const maxSize = 200
 
@@ -49,3 +50,5 @@ function mouseClicked() {
             mouseX + (.5 * sideLength), mouseY - sideLength)
     }
 }
+
+//to Here
