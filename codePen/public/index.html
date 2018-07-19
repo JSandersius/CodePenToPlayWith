@@ -35,8 +35,8 @@
             </span>
         </div>
 
-        <p>COMMENT</p>
-        <p>ANOTHER COMMENT</p>
+        <p></p>
+        <p>Click to interact</p>
     </div>
 
     <p></p>
@@ -45,7 +45,7 @@
     <div class="parallax"></div>
 
 
-    <div style="height:1000px;background-color:red;font-size:36px">
+    <div style="height:1000px;background-color:white;font-size:36px">
         Scroll Up and Down this page to see the parallax scrolling effect. This div is just here to enable scrolling. Tip: Try to
         remove the background-attachment property to remove the scrolling effect.
     </div>
@@ -56,26 +56,8 @@
     </div>
 
     <script type="text/javascript" src="../public/js/app.js"></script>
+    <script type="text/javascript" src="../public/js/particleInline.js"></script>
 
-    <script>
-        var count_particles, stats, update;
-        stats = new Stats;
-        stats.setMode(0);
-        stats.domElement.style.position = 'absolute';
-        stats.domElement.style.left = '0px';
-        stats.domElement.style.top = '0px';
-        document.body.appendChild(stats.domElement);
-        count_particles = document.querySelector('.js-count-particles');
-        update = function () {
-            stats.begin();
-            stats.end();
-            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-            }
-            requestAnimationFrame(update);
-        };
-        requestAnimationFrame(update);
-    </script>
 </body>
 
 </html>
